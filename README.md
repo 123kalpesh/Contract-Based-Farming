@@ -1,124 +1,79 @@
 # Contract Based Farming
-🏥 आरोग्यनिदानम्: Intelligent Medical Report Generator and Assistant
-Empowering Healthcare through AI — Automated Diagnosis, Detailed Reports & Personalized Assistance 💡
+AgriConnect: Smart Contract-Based Farming Platform
+AgriConnect is a Django-based backend and React-based frontend web application designed to streamline the farming contract process. It provides a decentralized platform where farmers and contractors can create, negotiate, and manage farming contracts efficiently and transparently using blockchain technology.
 
-📌 Overview
-आरोग्यनिदानम् (Ārogyanidānam) is a full-stack AI-powered medical assistant and report generator that assists doctors and patients in diagnosing diseases, analyzing CT scan images, and creating structured reports with AI-driven recommendations.
+Table of Contents
+Overview
+Key Features
+Installation
+Usage
+Technologies Used
+Links
+Overview
+AgriConnect addresses key issues in contract farming, such as lack of a centralized platform, limited access to contracts, and the interference of middlemen. This platform leverages blockchain for secure contract execution, AI for intelligent contract suggestions, and supports seamless negotiation between farmers and contractors.
 
-🚀 Built using Flask, TensorFlow, LangChain, and FAISS, the system includes patient management, disease prediction, chat-based medical support, and downloadable PDF reports.
+Key Features
+Centralized Contract Hub: A platform for diverse contract types.
+Blockchain-based Contract Management: Ensures transparency and automated execution.
+AI-Powered Negotiation: Suggests fair terms and values during negotiation.
+Smart Contract Suggestions: Uses AI to provide contract recommendations based on user profiles.
+Secure Payments: Blockchain-based payment gateway ensures secure transactions.
+End-to-End Security: 2FA, encryption, and real-time threat detection.
+Installation
+1. Backend (Django)
+Clone the Repository:
 
-🧠 Core Features
-✨ Patient Management System – Register, login & securely store health data
-🧾 Medical Report Generation – Based on symptoms, clinical history & uploaded images
-📷 CT Scan Image Analysis – AI-powered prediction using trained deep learning model
-📊 Pathological Staging – Integrated AI for diagnosis details and staging
-💬 Chatbot Assistance – Ask questions to the AI using LangChain & Groq API
-🥗 Health Guidance – Diet, exercise, and precaution suggestions
-📥 PDF Export – Professionally formatted report downloads for consultation
-🌐 RAG-enabled Search – Contextual retrieval from stored data and generated report using FAISS
+git clone https://github.com/VanshGosavi07/SIH-Project.git
+cd Backend/Contract_Based_Farming
+Create a Virtual Environment:
 
-🗂️ Folder Structure
-आरोग्यनिदानम्/
-├── Modal/
-│   ├── Accuracy Matrix.png
-│   ├── Breast_Cancer.ipynb
-│   ├── breast_cancer.keras
-│   ├── Training vs val.png
-│   └── Dataset/
-│       ├── test/
-│       ├── train/
-│       └── valid/
-├── screenshots/              # 📸 Project UI screenshots
-│   ├── Home1.png
-│   ├── Home2.png
-│   ├── Register.png
-│   ├── Login.png
-│   ├── Patients_Form.png
-│   ├── Report.png
-│   ├── Chat.png
-│   └── Output.png
-├── static/
-│   ├── assets/
-│   └── uploads/
-├── templates/
-│   ├── base.html
-│   ├── chat.html
-│   ├── form.html
-│   ├── home.html
-│   ├── login.html
-│   ├── register.html
-│   └── report.html
-├── main.py                    # Flask application logic
-├── requirements.txt           # Python dependencies
-├── LICENSE                    # MIT License
-└── README.md                  # Project Documentation
-🛠️ Tech Stack
-Layer	Technology
-Backend	Flask, SQLAlchemy, bcrypt
-Frontend	HTML5, Bootstrap 5
-AI/ML	TensorFlow, Keras, OpenCV
-NLP & Chat	LangChain, Groq API, FAISS
-Storage	SQLite
-PDF Reports	reportlab
-✅ Prerequisites
-Python 3.10+ 🐍
-Flask Framework 🌐
-TensorFlow 2.x 🧠
-FAISS for vector search 📚
-LangChain for RAG & context chat 🤖
-🔧 Installation & Setup
-Clone the Repository
-git clone https://github.com/VanshGosavi07/Mini-Project-2.git
-cd Mini-Project-2
-Install Dependencies
+python -m venv venv
+source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+Install Dependencies:
+
 pip install -r requirements.txt
-Set Environment Variables
-set SECRET_KEY=your-secret-key
-set GROQ_API_KEY=your-groq-api-key
-🔐 Get your Groq API Key here
+Set Up Environment Variables: Create a .env file with the following keys:
 
-Run the Application
-python main.py
-🌍 Open http://localhost:5000 in your browser.
+SECRET_KEY=your_secret_key
+BLOCKCHAIN_API_KEY=your_blockchain_key
+Run Database Migrations:
 
-📘 How to Use
-1️⃣ Register/Login – Create your account securely
-2️⃣ Fill Patient Info – Enter name, age, symptoms, upload CT image
-3️⃣ Generate Report – AI analyzes image + text and builds full report
-4️⃣ Interact via Chat – Ask questions about the report using the AI bot
-5️⃣ Download PDF – Export report in professional format for consultation
+python manage.py migrate
+Run the Development Server:
 
-📸 Screenshots
-🏠 Home Page – Welcome Interface
-Home1
-Home2
+python manage.py runserver
+2. Frontend (React)
+Navigate to Frontend Directory:
 
-🔐 Register & Login Pages
-Register
-Login
+cd D:\Project\SIH Project\Frontend\contract
+Install Node Dependencies:
 
-📝 Patient Form
-Patient Form
+npm install
+Start the React Application:
 
-📄 Report Generation Output
-Report
-Output
-
-💬 Chat Assistant
-Chat
-
-🤝 Contribution Guidelines
-We welcome your ideas, fixes, and features!
-
-# Fork and Clone the repository
-git checkout -b feature-branch
-git commit -m "✨ Add new feature"
-git push origin feature-branch
-Open a pull request and let us know what you added 🔧
-
-📜 License
-This project is licensed under the MIT License.
-Free to use, modify, and distribute.
+npm start
+Usage
+1. Access the Application:
+Backend (Django): Visit http://127.0.0.1:8000 to access the Django admin and API.
+Frontend (React): Visit http://localhost:3000 to interact with the frontend application.
+2. Key Operations:
+Register/Login: Users can register or log in.
+Create and Manage Contracts: Farmers and contractors can search, negotiate, and manage contracts.
+Profile Management: Farmers and contractors can update their profiles and view contract histories.
+Secure Payments: Process payments securely through the integrated blockchain payment gateway.
+Technologies Used
+Frontend: React.js
+Backend: Django (Python)
+Database: SQLite (for development) or PostgreSQL (for production)
+Blockchain: Smart contracts for secure contract execution
+AI/ML: AI for contract suggestions and negotiation
+Security: End-to-End Encryption, Two-Factor Authentication (2FA)
+Links
+GitHub Repository: AgriConnect
+ER Diagram: ER Diagram Link
+Figma Design: Figma Design Link
+Workflow and Tech Stack Diagram: Workflow and Tech Stack Link
+Video Demonstration: YouTube Channel Link
 
 📬 Contact & Support
 GitHub: @VanshGosavi07
