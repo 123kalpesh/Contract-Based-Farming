@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ae7a7b36-62fa-48f9-a2f4-fbe02b94c2c5" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Backend/Contract_Based_Farming/Contract_Based_Farming/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Contract_Based_Farming/Contract_Based_Farming/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/Contract_Based_Farming/api/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Contract_Based_Farming/api/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/contract/src/components/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/contract/src/components/Navbar.jsx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2nmkApCcyF7kJzPxexiDW0xZgCc" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "vansh",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Project/SIH Project"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ae7a7b36-62fa-48f9-a2f4-fbe02b94c2c5" name="Changes" comment="" />
+      <created>1729585499321</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1729585499321</updated>
+    </task>
+    <servers />
+  </component>
+</project>
