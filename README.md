@@ -23,7 +23,7 @@ Installation
 1. Backend (Django)
 Clone the Repository:
 
-git clone https://github.com/VanshGosavi07/SIH-Project.git
+git clone https://github.com/123/Kalpesh/SIH-Project.git
 cd Backend/Contract_Based_Farming
 Create a Virtual Environment:
 
