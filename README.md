@@ -76,8 +76,8 @@ Workflow and Tech Stack Diagram: Workflow and Tech Stack Link
 Video Demonstration: YouTube Channel Link
 
 📬 Contact & Support
-GitHub: @VanshGosavi07
-Email: vanshgosavi7@gmail.com
-Phone: 📞 +91 9359775740
+GitHub: @123kalpesh
+Email: kalpeshdesale570@gmail.com
+Phone: 📞 +91 9322175505
 🚀 Build the Future of Digital Healthcare with आरोग्यनिदानम्!
 🧑‍⚕️💻📊📥🧠💬📄
